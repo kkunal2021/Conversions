@@ -29,3 +29,6 @@ mvn spring-boot:run
 
 # Accessing the application
 the application is accessible at http://localhost:9090/conversions/
+
+# Postman Collection
+The Postman Collection is provided under the project root directory which can be imported for reference.
