@@ -1,12 +1,11 @@
 package com.kunal.rest.service.impl;
 
+import com.kunal.rest.service.IMilesToKmViceVersa;
 import com.kunal.rest.utility.ConversionsUtility;
 import org.springframework.stereotype.Service;
-import com.kunal.rest.service.IMilesToKmViceVersa;
 
 /**
  * @author kunal
- *
  */
 
 @Service

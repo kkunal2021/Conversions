@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "607c95b6-2d96-4923-a83e-dbd5009a794a",
+		"name": "Conversions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9090/conversions/ctok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\":\"c2k\",\n    \"value\":110\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9090/conversions/ctok",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"conversions",
+						"ctok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/conversions/ktoc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\":\"k2c\",\n    \"value\":400\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9090/conversions/ktoc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"conversions",
+						"ktoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/conversions/mtok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\":\"m2k\",\n    \"value\":1\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9090/conversions/mtok",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"conversions",
+						"mtok"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9090/conversions/ktom",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\":\"k2m\",\n    \"value\":10\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9090/conversions/ktom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"conversions",
+						"ktom"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
